@@ -1,6 +1,6 @@
 # ngx-syncscroll
 
-[![NPM version](https://img.shields.io/npm/v/ngx-syncscroll.svg?style=flat)](https://www.npmjs.com/package/ngx-ngx-syncscroll) [![NPM monthly downloads](https://img.shields.io/npm/dm/ngx-syncscroll.svg?style=flat)](https://npmjs.org/package/ngx-syncscroll)  [![NPM total downloads](https://img.shields.io/npm/dt/ngx-syncscroll.svg?style=flat)](https://npmjs.org/package/ngx-syncscroll) [![Made with Angular](https://img.shields.io/badge/Made%20with-Angular-E13137.svg)](https://angular.io)
+[![NPM version](https://img.shields.io/npm/v/ngx-syncscroll.svg?style=flat)](https://www.npmjs.com/package/ngx-syncscroll) [![NPM monthly downloads](https://img.shields.io/npm/dm/ngx-syncscroll.svg?style=flat)](https://npmjs.org/package/ngx-syncscroll)  [![NPM total downloads](https://img.shields.io/npm/dt/ngx-syncscroll.svg?style=flat)](https://npmjs.org/package/ngx-syncscroll) [![Made with Angular](https://img.shields.io/badge/Made%20with-Angular-E13137.svg)](https://angular.io)
 
 Syncscroll is a micro library rewritten in Angular, which allows to scroll two or more scrollable areas simultaneously.
 
