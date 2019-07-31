@@ -1,31 +1,48 @@
 {
   "name": "syncscroll",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "version": "1.0.0",
+  "description": "Syncscroll is a micro Angular directive, which allows to scroll two or more scrollable areas simultaneously.",
+  "author": "Roman Kolesnikov / @sezmars",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sezmars/syncscroll.git"
   },
+  "homepage": "https://sezmars.github.io/syncscroll",
+  "bugs": {
+    "url": "https://github.com/sezmars/syncscroll/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ngx",
+    "table",
+    "header",
+    "sticky",
+    "angular",
+    "syncscroll",
+    "sticky table header",
+    "sticky-table-header"
+  ],
   "private": true,
   "dependencies": {
-    "@angular/animations": "~7.2.0",
+    "@angular/animations": "^7.2.15",
+    "@angular/cdk": "^8.1.1",
     "@angular/common": "~7.2.0",
     "@angular/compiler": "~7.2.0",
-    "@angular/core": "~7.2.0",
+    "@angular/core": "^8.1.3",
     "@angular/forms": "~7.2.0",
+    "@angular/material": "^8.1.1",
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
+    "ngx-syncscroll": "^1.0.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",
+    "@angular-devkit/build-ng-packagr": "~0.13.0",
     "@angular/cli": "~7.3.3",
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
@@ -40,8 +57,11 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "ng-packagr": "^4.2.0",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
+    "tsickle": ">=0.34.0",
+    "tslib": "^1.9.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
   }

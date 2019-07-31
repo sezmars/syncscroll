@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-syncscroll": [
+        "dist/ngx-syncscroll"
+      ],
+      "ngx-syncscroll/*": [
+        "dist/ngx-syncscroll/*"
+      ]
+    }
   }
 }

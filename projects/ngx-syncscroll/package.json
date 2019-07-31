@@ -1,0 +1,29 @@
+{
+  "name": "ngx-syncscroll",
+  "version": "1.0.0",
+  "description": "Syncscroll is a micro Angular directive, which allows to scroll two or more scrollable areas simultaneously.",
+  "author": "Roman Kolesnikov / @sezmars",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sezmars/syncscroll.git"
+  },
+  "homepage": "https://sezmars.github.io/syncscroll",
+  "bugs": {
+    "url": "https://github.com/sezmars/syncscroll/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ngx",
+    "table",
+    "header",
+    "sticky",
+    "angular",
+    "syncscroll",
+    "sticky table header",
+    "sticky-table-header"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  }
+}
