@@ -6,8 +6,6 @@ Syncscroll is a micro library rewritten in Angular, which allows to scroll two o
 
 Based on https://github.com/asvd/syncscroll.
 
-### Usage
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
 ## Development server
