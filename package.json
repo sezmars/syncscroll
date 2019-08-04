@@ -15,12 +15,12 @@
   "keywords": [
     "ngx",
     "table",
-    "header",
     "sticky",
     "angular",
+    "scrolling",
     "syncscroll",
-    "sticky table header",
-    "sticky-table-header"
+    "synchronized",
+    "synchronized scrolling"
   ],
   "private": true,
   "dependencies": {
