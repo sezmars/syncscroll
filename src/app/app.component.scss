@@ -17,6 +17,9 @@ ngx-syncscroll {
 
     .floss, .romanian {
       width: 70%;
+      @media (max-width: 768px) {
+        width: 90%;
+      }
 
       img {
         height: 200px;
