@@ -28,12 +28,12 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 <ngx-syncscroll [classSyncScroll]="'drag-timeline'" [dragState]="true" [attributeName]="'drag-scroll-timeline'">
        <div class="container syncscroll dragscroll frame time romanian" [ngClass]="'drag-timeline'"
             [attr.drag-scroll-timeline]="true">
-         <img src="../assets/romanian_timeline.png">
+         <img src="./assets/romanian_timeline.png">
        </div>
    
        <div class="container syncscroll dragscroll frame time floss" [ngClass]="'drag-timeline'"
             [attr.drag-scroll-timeline]="true">
-         <img src="../assets/floss_timeline.png">
+         <img src="./assets/floss_timeline.png">
        </div>
 </ngx-syncscroll>
 ```
@@ -68,12 +68,12 @@ You can then use the component in your templates:
     <ngx-syncscroll [classSyncScroll]="'drag-timeline'" [dragState]="true" [attributeName]="'drag-scroll-timeline'">
        <div class="container syncscroll dragscroll frame time romanian" [ngClass]="'drag-timeline'"
             [attr.drag-scroll-timeline]="true">
-         <img src="../assets/romanian_timeline.png">
+         <img src="./assets/romanian_timeline.png">
        </div>
    
        <div class="container syncscroll dragscroll frame time floss" [ngClass]="'drag-timeline'"
             [attr.drag-scroll-timeline]="true">
-         <img src="../assets/floss_timeline.png">
+         <img src="./assets/floss_timeline.png">
        </div>
      </ngx-syncscroll>
        `

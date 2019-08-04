@@ -1,6 +1,6 @@
 {
   "name": "ngx-syncscroll",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "SyncScroll is a micro Angular component, which allows to scroll two or more scrollable areas simultaneously.",
   "author": "Roman Kolesnikov / @sezmars",
   "repository": {
