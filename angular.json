@@ -27,7 +27,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": [],
             "es5BrowserSupport": true
@@ -101,14 +101,6 @@
           "options": {
             "tsConfig": "projects/ngx-syncscroll/tsconfig.lib.json",
             "project": "projects/ngx-syncscroll/ng-package.json"
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/ngx-syncscroll/src/test.ts",
-            "tsConfig": "projects/ngx-syncscroll/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-syncscroll/karma.conf.js"
           }
         },
         "lint": {

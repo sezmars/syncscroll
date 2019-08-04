@@ -6,6 +6,7 @@
   "rules": {
     "array-type": false,
     "arrow-parens": false,
+    "no-bitwise": false,
     "deprecation": {
       "severity": "warn"
     },
@@ -42,11 +43,13 @@
     ],
     "no-empty": false,
     "no-inferrable-types": [
-      true,
+      false,
       "ignore-params"
     ],
     "no-non-null-assertion": true,
     "no-redundant-jsdoc": true,
+    "no-string-literal": false,
+    "no-shadowed-variable": false,
     "no-switch-case-fall-through": true,
     "no-use-before-declare": true,
     "no-var-requires": false,

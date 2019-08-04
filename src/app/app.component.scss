@@ -1,73 +1,107 @@
-.wrap {
-  position: relative;
-  margin: 4em auto 10em;
-  max-width: 960px;
-  overscroll-behavior: contain;
+section {
+  text-align: center;
+}
 
-  .headers {
-    top: 0;
-    position: -webkit-sticky;
-    position: sticky;
-    z-index: 1;
-  }
+ngx-syncscroll {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .tracks,
-  .scroller {
-    display: flex;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .scroller {
-    overflow-x: hidden;
-  }
-
-  .tracks {
-    overflow: auto;
-    scroll-snap-type: x mandatory;
-  }
-
-  .scenes::-webkit-scrollbar,
-  .scroller::-webkit-scrollbar {
-    display: none;
-  }
-
-  .track {
-    flex: 1 0 calc(22% + 2px);
-    scroll-snap-align: start;
-  }
-
-  .track + .track {
-    margin-left: -1px;
-  }
-
-  .heading {
-    height: 50px;
-    display: flex;
-    justify-content: center;
+.drag-container {
+  ngx-syncscroll {
     align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    border: solid #fff;
-    border-width: 0 1px;
-    z-index: 1;
-    background: #efefef;
-    font-weight: 700;
-  }
+    flex-direction: column;
+    justify-content: center;
 
-  .entry {
-    border: 1px solid #ebebeb;
-    border-top: 0;
-    background: #fff;
-    height: 8em;
-    padding: 1em;
+    .floss, .romanian {
+      width: 70%;
+
+      img {
+        height: 200px;
+      }
+    }
   }
 }
 
+.badges {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-flex-flow: row wrap;
 
-@media (max-width: 767px) {
-  .track {
-    flex: 1 0 calc(50% + 7px);
+  a {
+    margin: 10px;
   }
+}
+
+.flex-container {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+
+  .dragscroll {
+    cursor: grab;
+    cursor: -o-grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+
+    &:active {
+      cursor: grabbing;
+      cursor: -o-grabbing;
+      cursor: -moz-grabbing;
+      cursor: -webkit-grabbing;
+    }
+  }
+
+  .earth {
+    width: 440px;
+    height: 300px;
+    overflow: auto;
+  }
+
+  .frame {
+    margin: 15px;
+    color: #aabbcc;
+    overflow: auto;
+    position: relative;
+  }
+
+  .goethe {
+    float: left;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    font-size: 14px;
+    overflow-y: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #283849;
+  }
+}
+
+.title {
+  font-size: 26px;
+  text-align: center;
+}
+
+
+.subtitle {
+  margin: 20px;
+  font-size: 24px;
+  text-align: center;
 }

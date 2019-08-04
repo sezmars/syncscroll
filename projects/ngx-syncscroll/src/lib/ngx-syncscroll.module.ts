@@ -1,9 +1,9 @@
 import {NgModule} from '@angular/core';
-import {NgxSyncScrollDirective} from './directive/syncscroll.directive';
+import {NgxSyncScrollComponent} from './ngx-syncscroll/ngx-syncscroll.component';
 
 @NgModule({
-  declarations: [NgxSyncScrollDirective],
-  exports: [NgxSyncScrollDirective]
+  declarations: [NgxSyncScrollComponent],
+  exports: [NgxSyncScrollComponent]
 })
-export class NgxSyncScrollModule {
-}
+
+export class NgxSyncScrollModule {}
