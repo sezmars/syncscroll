@@ -10,15 +10,15 @@ Based on https://github.com/asvd/syncscroll.
 
 ```HTML
 <ngx-syncscroll [classSyncScroll]="'drag-timeline'" [dragState]="true" [attributeName]="'drag-scroll-timeline'">
-       <div class="container syncscroll dragscroll frame time romanian" [ngClass]="'drag-timeline'"
-            [attr.drag-scroll-timeline]="true">
-         <img src="./assets/romanian_timeline.png">
-       </div>
-   
-       <div class="container syncscroll dragscroll frame time floss" [ngClass]="'drag-timeline'"
-            [attr.drag-scroll-timeline]="true">
-         <img src="./assets/floss_timeline.png">
-       </div>
+      <div class="dragscroll frame romanian" [ngClass]="'drag-timeline'"
+           [attr.drag-scroll-timeline]="true">
+        <img alt="ngx-syncscroll" src="./assets/romanian_timeline.png">
+      </div>
+
+      <div class="dragscroll frame floss" [ngClass]="'drag-timeline'"
+           [attr.drag-scroll-timeline]="true">
+        <img alt="ngx-syncscroll" src="./assets/floss_timeline.png">
+      </div>
 </ngx-syncscroll>
 ```
 
@@ -50,16 +50,16 @@ You can then use the component in your templates:
   selector: 'app',
   template: `
     <ngx-syncscroll [classSyncScroll]="'drag-timeline'" [dragState]="true" [attributeName]="'drag-scroll-timeline'">
-       <div class="container syncscroll dragscroll frame time romanian" [ngClass]="'drag-timeline'"
-            [attr.drag-scroll-timeline]="true">
-         <img src="./assets/romanian_timeline.png">
-       </div>
-   
-       <div class="container syncscroll dragscroll frame time floss" [ngClass]="'drag-timeline'"
-            [attr.drag-scroll-timeline]="true">
-         <img src="./assets/floss_timeline.png">
-       </div>
-     </ngx-syncscroll>
+          <div class="dragscroll frame romanian" [ngClass]="'drag-timeline'"
+               [attr.drag-scroll-timeline]="true">
+            <img alt="ngx-syncscroll" src="./assets/romanian_timeline.png">
+          </div>
+    
+          <div class="dragscroll frame floss" [ngClass]="'drag-timeline'"
+               [attr.drag-scroll-timeline]="true">
+            <img alt="ngx-syncscroll" src="./assets/floss_timeline.png">
+          </div>
+    </ngx-syncscroll>
        `
 })
 ```
