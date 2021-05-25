@@ -32,6 +32,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/architect": "^0.1200.1",
     "@angular-devkit/core": "^12.0.1",
     "@angular/cdk": "^8.1.1",
     "@angular/common": "~11.2.14",
@@ -55,7 +56,7 @@
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
-    "angular-cli-ghpages": "^0.6.2",
+    "angular-cli-ghpages": "^1.0.0-rc.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
