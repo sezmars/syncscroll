@@ -14,6 +14,7 @@ export class NgxSyncScrollComponent implements AfterViewInit, OnDestroy {
   private cloneWindow = window;
   private cloneDocument = document;
   @Input() public dragState: boolean = false;
+  @Input() public disableSync: boolean = false;
   @Input() public attributeName: string = null;
   @Input() public classSyncScroll: string = null;
 
@@ -34,7 +35,9 @@ export class NgxSyncScrollComponent implements AfterViewInit, OnDestroy {
 
   public ngAfterViewInit(): void {
     if (this.classSyncScroll) {
-      this.sync();
+      if (!this.disableSync) {
+        this.sync();
+      }
       if (this.dragState) {
         this.syncDrag();
       }

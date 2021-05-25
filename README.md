@@ -85,6 +85,7 @@ You can then use the component in your templates:
 | Property name | Type | Default | Description |
 | ------------- | ---- | ------- | ----------- |
 | `dragState` | boolean | `false` | Drag mode for images. |
+| `disableSync` | boolean | `false` | Disables synchronous scrolling. |
 | `attributeName` | string | `null` | Unique attribute name for a block with scrolling. Need to be used with [attr] property for child. |
 | `classSyncScroll` | string | `null` | Unique class name for a block with scrolling. Need to be used with [ngClass] or html class for child. |
 
